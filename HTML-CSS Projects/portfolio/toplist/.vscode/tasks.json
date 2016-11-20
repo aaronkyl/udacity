@@ -1,7 +1,7 @@
 {
 "version": "0.1.0",
-"command": "chrome",
+"command": "vivaldi",
 "windows": {
-    "command": "///Program Files (x86)/Google/Chrome/Application/chrome.exe"
+    "command": "///Users/Aaron/AppData/Local/Vivaldi/Application/vivaldi.exe"
 },
 "args": ["${file}"] }

@@ -1,0 +1,40 @@
+* {
+    /* add a solid red border to all elements to facilitate learning */
+    /* a rule that has the !important property will always be applied 
+    no matter where that rule appears in the CSS document */
+    outline: 1px solid red !important;
+}
+
+* {
+    /* box-sizing: border box makes the calculation of the element size include both 
+    the border and padding, to make it easier to make layouts. Margin is not
+    included in this size */
+    /*
+    browser-specific prefixes to ensure older browser compatibility
+    -webkit
+    -moz
+    -ms 
+    */
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.app {
+    /* display: flex allows the items in a larger container to have their
+    width/height/order altered to best fill the available space */
+    /* flexbox layout is best for components within an application while grid
+    layout is best for large scale layouts */
+    /* -webkit is used to allow Safari support */
+    display: -webkit-flex; 
+    display: flex;
+}
+.screenshot {
+    /* set maximum width of all "screenshot" class elements to 460 pixels */
+    max-width: 460px;
+}
+
+.description {
+    /* set maximum width of all "description" class elements to 705 pixels */
+    max-width: 705px;
+}
